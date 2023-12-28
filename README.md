@@ -13,4 +13,11 @@ OpenWeatherMap offers a seamless experience for anyone seeking up-to-date weathe
 
 --- 
 
-Feel free to adjust or modify this description according to the specific features or aspects you'd like to highlight about your OpenWeatherMap application.
+WeatherMap
+
+![weatherApp](https://github.com/kubaunique/openweathermap/assets/121674973/13668aff-ab78-4fa7-8a9b-d6164a9c60a2)
+
+Weather in Boston
+
+![weatherApp](https://github.com/kubaunique/openweathermap/assets/121674973/56004427-ef47-4861-b427-840f866ca3c0)
+
