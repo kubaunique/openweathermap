@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .api_weather {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  .input_city {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 90px);
+    max-width: 280px;
+  }
+  
+  #button_city {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #button_city:hover {
+    background-color: #0056b3;
+  }
+  
+  #weatherInfo {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #weatherInfo p {
+    margin-bottom: 5px;
+  }
+  
+  mark {
+    background-color: #f9f9f9;
+    padding: 4px 8px;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  
+  .api_weather > section > div > p {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .api_weather > section > div > p > mark {
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 6px 10px;
+  }
+
+
+/* Общие стили */
+
+/* ... */
+
+/* Стили для устройств с максимальной шириной до 600px (мобильные устройства) */
+@media only screen and (max-width: 600px) {
+    .api_weather {
+      padding: 10px;
+      border-radius: 0;
+      box-shadow: none;
+      max-width: none;
+    }
+  
+    .input_city {
+      width: 100%;
+      max-width: none;
+    }
+  
+    #weatherInfo {
+      margin-top: 10px;
+      display: block;
+      padding: 10px;
+      background-color: #f0f0f0;
+      border-radius: 8px;
+    }
+  
+    #weatherInfo p {
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+  
+    #weatherInfo p mark {
+      padding: 4px 6px;
+      margin-left: 6px;
+      display: inline-block;
+      border-radius: 4px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  
+    #error {
+      margin-top: 10px;
+      padding: 8px;
+      border-radius: 4px;
+      background-color: #ffe6e6;
+      color: #ff0000;
+      font-weight: bold;
+    }
+  }
+  
