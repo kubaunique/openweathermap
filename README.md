@@ -19,5 +19,4 @@ WeatherMap
 
 Weather in Boston
 
-![123](https://github.com/kubaunique/openweathermap/assets/121674973/4d47bcdd-9d5d-4b16-9969-0a03a876e798)
-
+![123](https://github.com/kubaunique/openweathermap/assets/121674973/e4fd8223-85b0-487c-b35d-88d0ad105e1e)
