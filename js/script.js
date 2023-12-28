@@ -35,12 +35,10 @@ function myWeatherClick() {
             document.getElementById('sea_level').innerHTML = sea_level;
             document.getElementById('speed').innerHTML = speed;
             document.getElementById('weatherInfo').style.display = 'block';
-            document.getElementById('error').innerHTML = ''; // Сброс ошибки, если она была показана ранее
+            document.getElementById('error').innerHTML = '';
         })
         .catch(error => {
-            // Показать ошибку над блоком с информацией о погоде
             document.getElementById('error').innerHTML = error.message;
-            // Скрыть блок с информацией о погоде
             document.getElementById('weatherInfo').style.display = 'none';
         });
 }
